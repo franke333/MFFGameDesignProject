@@ -66,3 +66,12 @@ I did another iteration on scene one. Additionally, I created concept art.
 
 #  3.11.2023 | 2h | Chu Feng
 I've created dialogues for the scene (Assets/Dialogues.md - Scene 1).
+
+# 5.11.2023 | 2h | Chu Feng
+I made all the assets for scene 1.
+
+# 6.11.2023 | 2h | Chu Feng
+I've gone through all the tutorials for the Charles engine.
+
+# 7.11.2023 | 2h | Chu Feng
+Created scene controller. Scenes are handled according to scene descriptor files.
