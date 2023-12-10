@@ -29,9 +29,9 @@ public class RepairMan : MonoBehaviour
         if(_gameOver)
             return true;
         //get z rotation in degrees
-        float z = transform.rotation.w * transform.rotation.z * 2f;
+        float z = transform.rotation.eulerAngles.z;
 
-        _gameOver = z > gameOverLimit || z < -gameOverLimit;
+        _gameOver = z > gameOverLimit && z < 360f-gameOverLimit;
         return _gameOver;
     }
 
@@ -45,6 +45,7 @@ public class RepairMan : MonoBehaviour
         if (IsGameOver())
         {
             Debug.Log("Game Over");
+            return;
         }
 
         // input Force

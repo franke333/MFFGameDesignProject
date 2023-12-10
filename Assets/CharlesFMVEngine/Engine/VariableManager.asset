@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: VariableManager
   m_EditorClassIdentifier: 
   Variables:
+  - {fileID: 11400000, guid: 77938821fa2efea47816c5794264ef36, type: 2}
   - {fileID: 11400000, guid: 7f4183e734df90b4fa574219fa94d7d7, type: 2}
   - {fileID: 11400000, guid: 8c74ff976abfbf1449e5f0e0acc8c15b, type: 2}
   - {fileID: 11400000, guid: 7a5d17821b5418942b94439079f29473, type: 2}
@@ -24,6 +25,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
   - {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
   VariableNames:
+  - Test_visited
   - RandomBoolVar
   - SwitchToDialogNode
   - ChosenSong
