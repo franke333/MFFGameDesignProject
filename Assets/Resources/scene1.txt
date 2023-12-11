@@ -9,43 +9,44 @@
 
 # Intro.
 B Sprites\Scene 1\scene_1_0
+D Crabs are decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting "tail" (abdomen), usually hidden entirely under the thorax (brachyura means "short tail" in Greek[a]).
 D TODO: Character introduction. (All TODOs and Czech labels are intentional :kappaPeek:.)
 W 1
 
 # Emily enters the kitchen.
 B Sprites\Scene 1\scene_1_1_0
-D Good morning!
-D Good morning, Emily. Did you sleep well?
-D Yes, Mom. I had this beautiful dream about unicorns and candies.
-D I'm glad to hear that. Do you have your school project ready?
-D Yes, everything is prepared. I believe it will be a great success.
-D I'm happy to hear that.
+D Emily: Good morning!
+D Mom: Good morning, Emily. Did you sleep well?
+D Emily: Yes, Mom. I had this beautiful dream about unicorns and candies.
+D Mom: I'm glad to hear that. Do you have your school project ready?
+D Emily: Yes, everything is prepared. I believe it will be a great success.
+D Mom: I'm happy to hear that.
 W 1
 
 # Emily starts eating the breakfast.
 B Sprites\Scene 1\scene_1_1_1
-D How's your school going?
-D Honey, give your daughter a moment of peace. She's eating breakfast.
-D It's okay, Mom. Everything is good, Dad.
-D Really? With finals coming up, are you studying thoroughly?
-D Yes, Dad.
+D Dad: How's your school going?
+D Mom: Honey, give your daughter a moment of peace. She's eating breakfast.
+D Emily: It's okay, Mom. Everything is good, Dad.
+D Dad: Really? With finals coming up, are you studying thoroughly?
+D Emily: Yes, Dad.
 W 1
 
 # Emily starts packing stuff.
 B Sprites\Scene 1\scene_1_1_2
-D Emily, do you have any plans for today's evening?
-D No, do you want to do something together?
-D I was thinking we could go to the shopping center, and pick up some new things.
-D That sounds great! I'm looking forward to it.
+D Mom: Emily, do you have any plans for today's evening?
+D Emily: No, do you want to do something together?
+D Mom: I was thinking we could go to the shopping center, and pick up some new things.
+D Emily: That sounds great! I'm looking forward to it.
 W 1
 
 # Emily is ready to depart.
 B Sprites\Scene 1\scene_1_1_3
-D Oh, Emily, be careful. Today's traffic is a bit chaotic.
-D Don't worry, Mom. I'll be okay.
-D I'm heading out. Bye!
-D Bye, Emily. Good luck with your project.
-D Thanks, Mom.
+D Mom: Oh, Emily, be careful. Today's traffic is a bit chaotic.
+D Emily: Don't worry, Mom. I'll be okay.
+D Emily: I'm heading out. Bye!
+D Mom: Bye, Emily. Good luck with your project.
+D Emily: Thanks, Mom.
 W 1
 
 # Hallway
