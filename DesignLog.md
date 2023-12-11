@@ -1,6 +1,6 @@
 Format: date | time_spend | nickname
 
-# 23.11.2023 | 3h | Chu Feng
+# 23.11.2023 | 3h | Chu Feng (+ Frankey)
 I was brainstorming various game ideas and wondering which ones would bepromising. Eventually, I picked on what I
 considered the best concept. Frankeyy went through a similar process, and together, we selected one best idea. Following
 that, we engaged in several iterations to refine the selected concept.
@@ -90,11 +90,24 @@ Also added audio to the scene (https://freesound.org/people/bone666138/sounds/19
 # 10.11.2023 | 2h | Chu Feng
 Completed scene 1.
 
+# 10.11.2023 | 3h | Frankey
+Working on scene 3 and added some more sounds (to both scene 3 and 4):
+https://freesound.org/people/Medartimus/sounds/217542/
+https://freesound.org/people/InspectorJ/sounds/415209/
+https://freesound.org/people/theshaggyfreak/sounds/276271/
+
 # 11.11.2023 | 3h | Chu Feng
 Textures for scenes 3, 4, and 5.
+
+# 11.11.2023 | 6h | Frankey
+Finished Scene 3,4 and added their corresponding textures. Added intermediate scene between scenes.
+Created custom script to delay end and run sounds while faded in.
 
 # 12.11.2023 | 8h | Chu Feng
 Working on taxi minigame (including all textures).
 
-# 12.11.2023 | 3h | Chu Feng
+# 11.11.2023 | 6h | Frankey
+Created video for 5th scene. Added credits and title screen. Connected all screens togheter.
+
+# 12.11.2023 | 3h | Chu Feng + Frankey
 Polishing + Tweaks.
