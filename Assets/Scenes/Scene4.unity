@@ -123,6 +123,60 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &54552449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54552450}
+  - component: {fileID: 54552451}
+  m_Layer: 0
+  m_Name: Wind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54552450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54552449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 384665055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &54552451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54552449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3216d5dc78de704c96057fc100c636c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 82cc5b9acfcf72e4ca16eb236d18b76e, type: 3}
+  ClipID: 
+  Delay: 2.25
+  Volume: 0.426
+  HasSubtitles: 0
+  Loop: 1
+  OnSoundEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  IsSoundEffect: 0
 --- !u!1 &105243420
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,6 +219,30 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 724194444}
+        m_TargetAssemblyTypeName: CharlesEngine.Timer, Assembly-CSharp
+        m_MethodName: Run
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 54552451}
+        m_TargetAssemblyTypeName: CharlesEngine.PlaySound, Assembly-CSharp
+        m_MethodName: Run
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -961,6 +1039,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1596420147}
+  - {fileID: 54552450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724194442
@@ -1008,13 +1087,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f78e6258c5f784d85892dd7f73d8ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Time: 2
+  Time: 8
   OnTimer:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 724194445}
-        m_TargetAssemblyTypeName: NextDialogueScript, Assembly-CSharp
-        m_MethodName: NextDialogue
+      - m_Target: {fileID: 1036181124}
+        m_TargetAssemblyTypeName: CharlesEngine.TextDialogManager, Assembly-CSharp
+        m_MethodName: OnTextEnd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 724194444}
+        m_TargetAssemblyTypeName: CharlesEngine.Timer, Assembly-CSharp
+        m_MethodName: Run
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1443,9 +1534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3216d5dc78de704c96057fc100c636c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Clip: {fileID: 8300000, guid: d01eb33dcc3c11445b12c1d0df296106, type: 3}
+  Clip: {fileID: 8300000, guid: ef5e7d19561e8d7429e1e4ff1570fd6e, type: 3}
   ClipID: 
-  Delay: 1.47
+  Delay: 0.76
   Volume: 0.678
   HasSubtitles: 0
   Loop: 0
