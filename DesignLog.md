@@ -86,3 +86,6 @@ Created scene controller. Scenes are handled according to scene descriptor files
 # 9.11.2023 | 4h | Frankey
 Completed Scene 4. Added full dialogues and edited Charles Engine to allow auto skipping of dialogues. Added some transitions between scenes and added InterScene.
 Also added audio to the scene (https://freesound.org/people/bone666138/sounds/198876/) (https://freesound.org/people/InspectorJ/sounds/405561/)
+
+# 10.11.2023 | 2h | Chu Feng
+Completed scene 1.
