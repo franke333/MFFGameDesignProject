@@ -89,14 +89,7 @@ namespace CharlesEngine
         {
             if (Globals.Input.GetKeyUp(InputAction.SkipVideo) && _playingTextNode)
             {
-                if (_text != null)
-                {
-                    Destroy(_text);
-                }       
-                if (_sprite != null)
-                {
-                    Destroy(_sprite);
-                }
+
 
                 OnTextEnd();
                 return true;
@@ -105,8 +98,16 @@ namespace CharlesEngine
             return false;
         }
         
-        private void OnTextEnd()
+        public void OnTextEnd()
         {
+            if (_text != null)
+            {
+                Destroy(_text);
+            }
+            if (_sprite != null)
+            {
+                Destroy(_sprite);
+            }
             Log("OnTextNodeEnd", DIALOG);
             if (_currentNode.Type == NodeType.Video)
             {

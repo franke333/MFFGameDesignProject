@@ -64,8 +64,15 @@ structure:
 #  2.11.2023 | 2h | Chu Feng
 I did another iteration on scene one. Additionally, I created concept art.
 
+#  2.11.2023 | 2h | Frankey
+Created repository and initiated FMV into the project. Did some cleanup to not overwhelm git.
+
 #  3.11.2023 | 2h | Chu Feng
 I've created dialogues for the scene (Assets/Dialogues.md - Scene 1).
+
+#  4.11.2023 | 3h | Frankey
+Created Scene 4 and implemented simple minigame with few forces apllying onto capsule, which rotates depending on the forces.
+Also created some test dialogues
 
 # 5.11.2023 | 2h | Chu Feng
 I made all the assets for scene 1.
@@ -75,3 +82,7 @@ I've gone through all the tutorials for the Charles engine.
 
 # 7.11.2023 | 2h | Chu Feng
 Created scene controller. Scenes are handled according to scene descriptor files.
+
+# 9.11.2023 | 4h | Frankey
+Completed Scene 4. Added full dialogues and edited Charles Engine to allow auto skipping of dialogues. Added some transitions between scenes and added InterScene.
+Also added audio to the scene (https://freesound.org/people/bone666138/sounds/198876/) (https://freesound.org/people/InspectorJ/sounds/405561/)

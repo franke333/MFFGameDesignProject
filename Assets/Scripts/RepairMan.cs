@@ -19,6 +19,8 @@ public class RepairMan : MonoBehaviour
     float gameOverLimit = 45f;
     bool _gameOver = false;
 
+    public EndSceneDramaticScript endSceneDramaticScript;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,6 +47,8 @@ public class RepairMan : MonoBehaviour
         if (IsGameOver())
         {
             Debug.Log("Game Over");
+            endSceneDramaticScript.Run();
+            Destroy(this); // to stop running Update()
             return;
         }
 
