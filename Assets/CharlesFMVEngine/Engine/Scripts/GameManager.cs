@@ -26,12 +26,6 @@ namespace CharlesEngine
 				Debug.LogWarning("Scene name must be specified:" + sceneName);
 				return;
 			}
-			
-			if (SceneManager.GetActiveScene().name == sceneName)
-			{
-				Debug.LogWarning("Scene already loaded:" + sceneName);
-				return;
-			}
 
 			if (IsLoading)
 			{
