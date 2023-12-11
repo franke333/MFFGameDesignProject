@@ -34,3 +34,66 @@ e *Emily is doing random happy noises.*
 - Cut to black screen.
 - Sound of a braking car, a cat's scream, and a heavy object crashing.
 - Scene where Emily is lying down, a pool of red liquid around her.
+
+# Scene 2: Taxi driver
+
+- Sound effects : running car motor, traffic
+- Setting: Taxidriver driving on road while angrily calling with someone
+- Text: One sided convo
+	- I was at Cody's house
+	- No I wasn't
+	- We watched the match
+	- We had this conversation like hundred times
+	- We could have gone to Hawaii!!!
+	- I almost had it
+	- The goalkeeper sucks!! If he didn't let the last ball in we would have a vacation
+	- I don't care that you don't care
+	- I didn't say the thing last time, that was a tennis match!
+	- I am making money right now!?!
+	- I will do what i want with the money i earn!
+	- ...
+- Ends with a black screen and sound of car stopping
+
+# Scene 3: Lost cat
+
+- Setting: 2 partners on a street blaming each other about who lost the cat
+- Cat image hidden on screen -> clicking it fast forwards the argument
+	- its hidden behind dumpster, slowly revealing itself (slowly moveing to the left)
+- Text: 
+	- M: How's that my fault? I shouted through the door that i am comming.
+	- F: Shouting? Don't make me laugh. You are shouting now but before it had to be a whisper.
+	- M: Even if, you had to hear the keys turning in the door.
+	- F: And?!? I didn't even imagine you would open the door for Felix to run away
+	- M: I just opened it slighty! He squezzed through my legs.
+	- F: Maybe if you exercised more you would have stopped him.
+	- M: Don't bring exercising into this. You know I am trying my best!
+	- F: Pfff. When was the last time you were working out?
+	- M: You wouldn't know, you wouldn't hear it through your loud reality TV shows! You were definetly watching one when Felix ran away..
+	- F: So now it's my fault!?!
+	- M: I didn't say that! But it's also definetly not my fault!
+	- F: And then whose is it? hmmm?
+	- ...
+	- Felix: meow (enlarge felix in backgorund)
+	- ...
+	- F: Oh my god there he is! Felix! Feeeeliiiix! Pspspspsps.
+- Then Felix runs towards the street
+- Black screen sounds of cat scream
+
+# Scene 4: Repair man
+- Sounds effects : wind blowing, light machinery (like screws turning)
+- Setting: Rapirman balances on ladder and tries to install (lets say satellite), while Neighbour Karen gives "good" advices
+- Text: Random Karens quotes
+	- Left
+	- More to the left
+	- More left
+	- Do you know which is left
+	- Right
+	- More to the right
+	- More right
+	- Do you know which is right
+	- First you need the screws
+	- you are taking your sweet time i see
+	- If my legs didn't hurt, I would have already finished it
+	- The young todays are so ineffective
+	- Look at you! Swayng in the wind like some kind of stick.
+	- I will miss my favourite Teleshopping program!! Speed up!
