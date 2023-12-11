@@ -89,3 +89,12 @@ Also added audio to the scene (https://freesound.org/people/bone666138/sounds/19
 
 # 10.11.2023 | 2h | Chu Feng
 Completed scene 1.
+
+# 11.11.2023 | 3h | Chu Feng
+Textures for scenes 3, 4, and 5.
+
+# 12.11.2023 | 8h | Chu Feng
+Working on taxi minigame (including all textures).
+
+# 12.11.2023 | 3h | Chu Feng
+Polishing + Tweaks.
