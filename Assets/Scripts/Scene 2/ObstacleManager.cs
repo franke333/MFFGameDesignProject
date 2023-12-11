@@ -33,7 +33,7 @@ public class ObstacleManager : MonoBehaviour
             return;
         }
 
-        if (accumulator < lastSpawnTime && Random.value < 0.001f)
+        if (accumulator < lastSpawnTime && Random.value < 0.01f)
             SpawnObstacle();
     }
 
