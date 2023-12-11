@@ -3,12 +3,13 @@
 # S scene - Change the current scene.
 # W float - Hide dialogue and wait for x seconds.
 # V int   - Set voice to specific id. (TODO)
-# A file  - Play audio from the file. (TODO)
+# A file  - Play audio from the file.
 # H       - Hide dialogue.
 # #       - Comment.
 
 B Sprites\Scene 1\scene_1_0
-W 3
 D TODO: Character introduction. (All TODOs and Czech labels are intentional :kappaPeek:.)
+A Audio\198876__bone666138__crash
+W 3
 H
 B Sprites\Scene 1\scene_1_1_0
