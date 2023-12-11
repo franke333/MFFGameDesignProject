@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 480324535}
   - component: {fileID: 480324536}
   m_Layer: 0
-  m_Name: ToCredits
+  m_Name: To52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,9 +276,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Destination:
-    m_SceneAsset: {fileID: 102900000, guid: 24fbf226dfba66643a395b8def4c2928, type: 3}
-    m_SceneName: InterScene
-  DialogNodeID: SceneSwitching/Credits
+    m_SceneAsset: {fileID: 102900000, guid: 869703826aac36c4b890c883dfbed486, type: 3}
+    m_SceneName: Scene5_2
+  DialogNodeID: 
   FadeToBlack: 1
   OnSwitch:
     m_PersistentCalls:
