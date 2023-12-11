@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 27
+    NodeIdAutoIncrement: 29
     Name: SceneSwitching
     FirstNode: 0
     Nodes:
@@ -477,12 +477,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 660
-        y: 960
+        x: 584
+        y: 956.6667
         width: 150
         height: 125
       Type: 0
-      Connections: 06000000
+      Connections: 1c000000
       Text: At 3rd floor of the apartment building.
       AnswerOrder: 0
       ConnectorTree: 
@@ -502,8 +502,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 900
-        y: 980
+        x: 952
+        y: 979.3333
         width: 150
         height: 75
       Type: 5
@@ -607,7 +607,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 0
-      Connections: 0c000000
+      Connections: 1b000000
       Text: Inside the taxi during rush hour.
       AnswerOrder: 0
       ConnectorTree: 
@@ -627,8 +627,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 727.3334
-        y: 617.99994
+        x: 939.3334
+        y: 636.6666
         width: 150
         height: 75
       Type: 5
@@ -893,6 +893,65 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 2022798972}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 726.6666
+        y: 533.33325
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0c000000
+      Text: '(How to play:
+
+        A|D to switch lanes,
+
+        dodge obstacles)'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 770
+        y: 957.3334
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: '(How to play:
+
+        A|D to tilt to the sides,
+
+        don''t fall
+        over)'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []
@@ -901,7 +960,7 @@ MonoBehaviour:
       Maximized: 0
     LocalizationPrefix: 
   Trees:
-  - NodeIdAutoIncrement: 27
+  - NodeIdAutoIncrement: 29
     Name: SceneSwitching
     FirstNode: 0
     Nodes:
@@ -1009,12 +1068,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 660
-        y: 960
+        x: 584
+        y: 956.6667
         width: 150
         height: 125
       Type: 0
-      Connections: 06000000
+      Connections: 1c000000
       Text: At 3rd floor of the apartment building.
       AnswerOrder: 0
       ConnectorTree: 
@@ -1034,8 +1093,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 900
-        y: 980
+        x: 952
+        y: 979.3333
         width: 150
         height: 75
       Type: 5
@@ -1139,7 +1198,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 0
-      Connections: 0c000000
+      Connections: 1b000000
       Text: Inside the taxi during rush hour.
       AnswerOrder: 0
       ConnectorTree: 
@@ -1159,8 +1218,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 727.3334
-        y: 617.99994
+        x: 939.3334
+        y: 636.6666
         width: 150
         height: 75
       Type: 5
@@ -1425,6 +1484,65 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 2022798972}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 726.6666
+        y: 533.33325
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0c000000
+      Text: '(How to play:
+
+        A|D to switch lanes,
+
+        dodge obstacles)'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 770
+        y: 957.3334
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: '(How to play:
+
+        A|D to tilt to the sides,
+
+        don''t fall
+        over)'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []
@@ -1597,8 +1715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Destination:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: Scene4
+    m_SceneAsset: {fileID: 102900000, guid: 16a00ccd7b7a96d44b54b3b8e89a4bf3, type: 3}
+    m_SceneName: Scene2
   DialogNodeID: 
   FadeToBlack: 1
   OnSwitch:

@@ -24,6 +24,9 @@ public class SceneController : MonoBehaviour
 
     public string SceneDescriptorFile;
 
+    [SerializeField]
+    private EndSceneDramaticScript _switchToScene;
+
     public SceneController()
     {
         advanceEnumerator = GetAdvanceEnumerator();
@@ -102,7 +105,7 @@ public class SceneController : MonoBehaviour
 
     private void SwitchScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        _switchToScene.Run();
     }
 
     private void SwitchBackground(string file)
@@ -128,6 +131,12 @@ public class SceneController : MonoBehaviour
         dialogueCEObject.Show();
         dialogueTMOText.text = dialogue;
         // TODO play sound
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+            Advance();
     }
 
     private void PlayAudio(string file)
