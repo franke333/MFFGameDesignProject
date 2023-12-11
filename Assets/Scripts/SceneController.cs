@@ -39,12 +39,13 @@ public class SceneController : MonoBehaviour
         
         dialogueTMOText = GetComponentInChildren<TMP_Text>();
         dialogueCEObject = GetComponentInChildren<CEGameObject>();
-
-        sceneDescriptor = File.ReadAllText(SceneDescriptorFile);
     }
 
     private void Start()
     {
+        var asset = Resources.Load<TextAsset>("scene1");
+        sceneDescriptor = asset.text;
+
         Advance();
     }
 

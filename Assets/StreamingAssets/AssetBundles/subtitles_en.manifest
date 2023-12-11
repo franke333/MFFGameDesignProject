@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 378491820
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 968cc43238e7ad9cb9ee622773d9d3b2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 968cc43238e7ad9cb9ee622773d9d3b2
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/24_song1_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/27_song4_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/03_Prank_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/25_song2_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/01_Howareyou_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/26_song3matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/02_Soundsfun_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/23_Italwaysdoes_matej_en.txt
+Dependencies: []
