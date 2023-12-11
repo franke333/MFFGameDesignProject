@@ -643,7 +643,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9917762, y: 0.9917762, z: 0.9917762}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2015451217}
@@ -1061,6 +1061,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2015451217}
     m_Modifications:
+    - target: {fileID: 913948073457515836, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1800
+      objectReference: {fileID: 0}
+    - target: {fileID: 913948073457515836, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2237936076758406342, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1110,6 +1118,26 @@ PrefabInstance:
       value: Crabs are decapod crustaceans of the infraorder Brachyura, which typically
         have a very short projecting "tail" (abdomen), usually hidden entirely under
         the thorax (brachyura means "short tail" in Greek[a]).
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057934667509404041, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057934667509404041, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057934667509404041, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057934667509404041, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057934667509404041, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6902432803390731092, guid: 3853fbcea60c5b6448309ab7db2b2fe8, type: 3}
       propertyPath: InitialVisibility
