@@ -56,10 +56,4 @@ W 1
 # Blackscreen
 B Sprites\Scene 1\black_screen
 W 2
-# TODO: sound of all things
-
-# Emily "dead"
-B Sprites\Scene 1\scene_1_3
-W 4
-# TODO: switch to the next scene
-D End of scene 1 (TODO remove this)
+S arg
