@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tests/Charles Engine/CE Interactive Test.unity
     guid: 56728690931cd214196939933941342a
   - enabled: 1
-    path: Assets/Scenes/Scene1_1.unity
+    path: Assets/Scenes/Scene1.unity
     guid: eb4b401ede49e6747951e63d9a3265a5
   - enabled: 1
     path: Assets/Scenes/InterScene.unity

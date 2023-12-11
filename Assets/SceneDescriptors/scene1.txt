@@ -3,12 +3,63 @@
 # S scene - Change the current scene.
 # W float - Hide dialogue and wait for x seconds.
 # V int   - Set voice to specific id. (TODO)
-# A file  - Play audio from the file. (TODO)
+# A file  - Play audio from the file.
 # H       - Hide dialogue.
 # #       - Comment.
 
+# Intro.
 B Sprites\Scene 1\scene_1_0
-W 3
 D TODO: Character introduction. (All TODOs and Czech labels are intentional :kappaPeek:.)
-H
+W 1
+
+# Emily enters the kitchen.
 B Sprites\Scene 1\scene_1_1_0
+D Good morning!
+D Good morning, Emily. Did you sleep well?
+D Yes, Mom. I had this beautiful dream about unicorns and candies.
+D I'm glad to hear that. Do you have your school project ready?
+D Yes, everything is prepared. I believe it will be a great success.
+D I'm happy to hear that.
+W 1
+
+# Emily starts eating the breakfast.
+B Sprites\Scene 1\scene_1_1_1
+D How's your school going?
+D Honey, give your daughter a moment of peace. She's eating breakfast.
+D It's okay, Mom. Everything is good, Dad.
+D Really? With finals coming up, are you studying thoroughly?
+D Yes, Dad.
+W 1
+
+# Emily starts packing stuff.
+B Sprites\Scene 1\scene_1_1_2
+D Emily, do you have any plans for today's evening?
+D No, do you want to do something together?
+D I was thinking we could go to the shopping center, and pick up some new things.
+D That sounds great! I'm looking forward to it.
+W 1
+
+# Emily is ready to depart.
+B Sprites\Scene 1\scene_1_1_3
+D Oh, Emily, be careful. Today's traffic is a bit chaotic.
+D Don't worry, Mom. I'll be okay.
+D I'm heading out. Bye!
+D Bye, Emily. Good luck with your project.
+D Thanks, Mom.
+W 1
+
+# Hallway
+B Sprites\Scene 1\scene_1_2
+D *Emily is making random happy noises.*
+W 1
+
+# Blackscreen
+B Sprites\Scene 1\black_screen
+W 2
+# TODO: sound of all things
+
+# Emily "dead"
+B Sprites\Scene 1\scene_1_3
+W 4
+# TODO: switch to the next scene
+D End of scene 1 (TODO remove this)

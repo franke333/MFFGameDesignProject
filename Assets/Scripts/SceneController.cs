@@ -15,7 +15,10 @@ public class SceneController : MonoBehaviour
 
     private string sceneDescriptor;
     private bool waiting;
+    
     private SpriteRenderer spriteRenderer;
+    private AudioSource audioSource;
+    
     private TMP_Text dialogueTMOText;
     private CEGameObject dialogueCEObject;
 
@@ -29,6 +32,8 @@ public class SceneController : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
+        
         dialogueTMOText = GetComponentInChildren<TMP_Text>();
         dialogueCEObject = GetComponentInChildren<CEGameObject>();
 
@@ -82,6 +87,9 @@ public class SceneController : MonoBehaviour
                 case 'A':
                     PlayAudio(argument); 
                     break;
+                case 'L':
+                    PlayAudio(argument);
+                    break;
                 case 'H':
                     dialogueCEObject.Hide();
                     break;
@@ -124,7 +132,17 @@ public class SceneController : MonoBehaviour
 
     private void PlayAudio(string file)
     {
-        // TODO
+        var clip = Resources.Load<AudioClip>(file);
+
+        if (clip == null)
+        {
+            Debug.LogError($"Did not find audio clip {file}.");
+            return;
+        }
+
+        audioSource.clip = clip;
+        audioSource.Play();
+        StartCoroutine(WaitCorutine(clip.length));
     }
 
     private void Wait(float seconds)
